@@ -11,19 +11,19 @@ body {
 .image-bg-fluid-height,
 .image-bg-fixed-height {
     text-align: center;
-    -webkit-background-size: cover;
+/*    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
 }
 
 .image-bg-fluid-height {
-	background: url('https://cdn.pixabay.com/photo/2016/11/14/04/43/boy-1822631_960_720.jpg') no-repeat center center scroll;
+	background: url('https://cdn.pixabay.com/photo/2016/11/14/04/43/boy-1822631_960_720.jpg') no-repeat center/100% scroll;
     padding: 100px 0;
 }
 
 .image-bg-fixed-height {
-	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+	background: url('https://cdn.pixabay.com/photo/2016/11/29/06/03/action-1867692_960_720.jpg') no-repeat center/100% scroll;
     height: 450px;
 }
 
